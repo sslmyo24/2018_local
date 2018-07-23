@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<title>UI 라이브러리</title>
+</head>
+<body>
+<header id="header">
+	<div id="logo">
+		<i class="fa fa-cogs fa-2x"></i>
+		<div>UI <br> GUIDE</div>
+	</div>
+</header>
+<div id="all" class="content3">
+	<div class="leftmenu">
+		<nav class="gnb">
+			<ul>
+				<li><a href="index.html"><i class="fa fa-desktop fa-lg"></i>기본 버튼<span>&gt;</span></a></li>
+				<li><a href="icon.html"><i class="fa fa-info-circle fa-lg"></i>아이콘<span>&gt;</span></a></li>
+				<li><a href="bi.html"><i class="fa fa-caret-square-o-down fa-lg"></i>버튼 + 아이콘<span>&gt;</span></a></li>
+				<li><a href="table.html"><i class="fa fa-list fa-lg"></i>테이블(TABLE)<span>&gt;</span></a></li>
+				<li><a href="board.html"><i class="fa fa-list-alt fa-lg"></i>게시판(BOARD)<span>&gt;</span></a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="content">
+		<div class="main-content">
+			<h1>버튼 + 아이콘</h1>
+			<div class="table_cover">
+				<input type="checkbox" id="icons">
+				<input type="radio" id="normal" name="color" checked>
+				<input type="radio" id="yellow" name="color">
+				<input type="radio" id="brown" name="color">
+				<input type="radio" id="red" name="color">
+				<input type="radio" id="green" name="color">
+				<input type="radio" id="blue" name="color">
+				<div class="caption">
+					<label for="icons"><i class="fa fa-align-justify"></i></label>
+					자주 쓰는 아이콘
+				</div>
+				<div class="label_cover">
+					<button class="btn normal large"><label for="normal">기본 색상</label></button>
+					<button class="btn yellow large"><label for="yellow">yellow 색상</label></button>
+					<button class="btn brown large"><label for="brown">brown 색상</label></button>
+					<button class="btn red large"><label for="red">red 색상</label></button>
+					<button class="btn green large"><label for="green">green 색상</label></button>
+					<button class="btn blue large"><label for="blue">blue 색상</label></button>
+				</div>
+				<table class="normal_cover">
+					<colgroup>
+						<col width="15%">
+						<col width="10%">
+						<col width="25%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Icon</th>
+							<th>Code</th>
+							<th>A 태그</th>
+							<th>Button 태그</th>
+							<th>Input 태그</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>fa-angle-down</td>
+							<td>&amp;#xf107;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-angle-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-angle-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf107; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-at</td>
+							<td>&amp;#xf1fa;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-at fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-at"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1fa; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-area-chart</td>
+							<td>&amp;#xf1fe;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-area-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-area-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1fe; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-bar-chart</td>
+							<td>&amp;#xf080;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-bar-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-bar-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf080; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-ban</td>
+							<td>&amp;#xf05e;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-ban fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-ban"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf05e; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-barcode</td>
+							<td>&amp;#xf02a;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-barcode fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-barcode"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf02a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-calendar</td>
+							<td>&amp;#xf073;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-calendar fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-calendar"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf073; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-camera</td>
+							<td>&amp;#xf030;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-camera fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-camera"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf030; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-caret-down</td>
+							<td>&amp;#xf0d7;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-caret-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-caret-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0d7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cc-visa</td>
+							<td>&amp;#xf1f0;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-cc-visa fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-cc-visa"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1f0; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-certificate</td>
+							<td>&amp;#xf0a3;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-certificate fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-certificate"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0a3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-chain</td>
+							<td>&amp;#xf0c1;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-chain fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-chain"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-check</td>
+							<td>&amp;#xf00c;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-check fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-check"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf00c; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cloud-download</td>
+							<td>&amp;#xf0ed;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-cloud-download fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-cloud-download"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0ed; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cog</td>
+							<td>&amp;#xf013;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-cog fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-cog"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf013; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-comments</td>
+							<td>&amp;#xf086;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-comments fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-comments"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf086; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-copy</td>
+							<td>&amp;#xf0c5;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-copy fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-copy"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file</td>
+							<td>&amp;#xf15b;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-file fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-file"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf15b; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-excel-o</td>
+							<td>&amp;#xf1c3;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-file-excel-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-file-excel-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1c3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-image-o</td>
+							<td>&amp;#xf1c5;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-file-image-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-file-image-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-pdf-o</td>
+							<td>&amp;#xf1c1;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-file-pdf-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-file-pdf-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-floppy-o</td>
+							<td>&amp;#xf0c7;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-floppy-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-floppy-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0c7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-folder-o</td>
+							<td>&amp;#xf114;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-folder-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-folder-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf114; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-list</td>
+							<td>&amp;#xf03a;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-list fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-list"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf03a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-home</td>
+							<td>&amp;#xf015;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-home fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-home"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf015; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-info-circle</td>
+							<td>&amp;#xf05a;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-info-circle fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-info-circle"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf05a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-location-arrow</td>
+							<td>&amp;#xf124;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-location-arrow fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-location-arrow"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf124; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-plus</td>
+							<td>&amp;#xf067;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-plus fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-plus"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf067; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-print</td>
+							<td>&amp;#xf02f;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-print fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-print"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf02f; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-refresh</td>
+							<td>&amp;#xf021;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-refresh fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-refresh"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf021; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-remove</td>
+							<td>&amp;#xf00d;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-remove fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-remove"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf00d; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-reply</td>
+							<td>&amp;#xf112;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-reply fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-reply"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf112; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-sort</td>
+							<td>&amp;#xf0dc;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-sort fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-sort"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf0dc; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-trash</td>
+							<td>&amp;#xf1f8;</td>
+							<td><a href="#" class="atag normal default"><i class="fa fa-trash fa-lg"></i>A 태그</a></td>
+							<td><button class="btn normal default"><i class="fa fa-trash"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input normal default" value="&#xf1f8; input 태그"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="yellow_cover">
+					<colgroup>
+						<col width="15%">
+						<col width="10%">
+						<col width="25%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Icon</th>
+							<th>Code</th>
+							<th>A 태그</th>
+							<th>Button 태그</th>
+							<th>Input 태그</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>fa-angle-down</td>
+							<td>&amp;#xf107;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-angle-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-angle-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf107; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-at</td>
+							<td>&amp;#xf1fa;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-at fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-at"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1fa; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-area-chart</td>
+							<td>&amp;#xf1fe;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-area-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-area-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1fe; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-bar-chart</td>
+							<td>&amp;#xf080;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-bar-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-bar-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf080; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-ban</td>
+							<td>&amp;#xf05e;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-ban fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-ban"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf05e; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-barcode</td>
+							<td>&amp;#xf02a;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-barcode fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-barcode"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf02a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-calendar</td>
+							<td>&amp;#xf073;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-calendar fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-calendar"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf073; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-camera</td>
+							<td>&amp;#xf030;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-camera fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-camera"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf030; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-caret-down</td>
+							<td>&amp;#xf0d7;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-caret-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-caret-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0d7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cc-visa</td>
+							<td>&amp;#xf1f0;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-cc-visa fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-cc-visa"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1f0; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-certificate</td>
+							<td>&amp;#xf0a3;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-certificate fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-certificate"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0a3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-chain</td>
+							<td>&amp;#xf0c1;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-chain fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-chain"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-check</td>
+							<td>&amp;#xf00c;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-check fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-check"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf00c; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cloud-download</td>
+							<td>&amp;#xf0ed;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-cloud-download fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-cloud-download"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0ed; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cog</td>
+							<td>&amp;#xf013;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-cog fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-cog"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf013; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-comments</td>
+							<td>&amp;#xf086;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-comments fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-comments"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf086; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-copy</td>
+							<td>&amp;#xf0c5;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-copy fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-copy"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file</td>
+							<td>&amp;#xf15b;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-file fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-file"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf15b; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-excel-o</td>
+							<td>&amp;#xf1c3;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-file-excel-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-file-excel-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1c3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-image-o</td>
+							<td>&amp;#xf1c5;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-file-image-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-file-image-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-pdf-o</td>
+							<td>&amp;#xf1c1;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-file-pdf-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-file-pdf-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-floppy-o</td>
+							<td>&amp;#xf0c7;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-floppy-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-floppy-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0c7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-folder-o</td>
+							<td>&amp;#xf114;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-folder-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-folder-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf114; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-list</td>
+							<td>&amp;#xf03a;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-list fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-list"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf03a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-home</td>
+							<td>&amp;#xf015;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-home fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-home"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf015; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-info-circle</td>
+							<td>&amp;#xf05a;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-info-circle fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-info-circle"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf05a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-location-arrow</td>
+							<td>&amp;#xf124;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-location-arrow fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-location-arrow"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf124; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-plus</td>
+							<td>&amp;#xf067;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-plus fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-plus"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf067; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-print</td>
+							<td>&amp;#xf02f;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-print fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-print"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf02f; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-refresh</td>
+							<td>&amp;#xf021;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-refresh fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-refresh"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf021; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-remove</td>
+							<td>&amp;#xf00d;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-remove fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-remove"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf00d; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-reply</td>
+							<td>&amp;#xf112;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-reply fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-reply"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf112; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-sort</td>
+							<td>&amp;#xf0dc;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-sort fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-sort"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf0dc; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-trash</td>
+							<td>&amp;#xf1f8;</td>
+							<td><a href="#" class="atag yellow default"><i class="fa fa-trash fa-lg"></i>A 태그</a></td>
+							<td><button class="btn yellow default"><i class="fa fa-trash"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input yellow default" value="&#xf1f8; input 태그"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="brown_cover">
+					<colgroup>
+						<col width="15%">
+						<col width="10%">
+						<col width="25%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Icon</th>
+							<th>Code</th>
+							<th>A 태그</th>
+							<th>Button 태그</th>
+							<th>Input 태그</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>fa-angle-down</td>
+							<td>&amp;#xf107;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-angle-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-angle-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf107; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-at</td>
+							<td>&amp;#xf1fa;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-at fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-at"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1fa; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-area-chart</td>
+							<td>&amp;#xf1fe;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-area-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-area-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1fe; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-bar-chart</td>
+							<td>&amp;#xf080;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-bar-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-bar-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf080; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-ban</td>
+							<td>&amp;#xf05e;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-ban fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-ban"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf05e; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-barcode</td>
+							<td>&amp;#xf02a;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-barcode fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-barcode"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf02a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-calendar</td>
+							<td>&amp;#xf073;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-calendar fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-calendar"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf073; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-camera</td>
+							<td>&amp;#xf030;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-camera fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-camera"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf030; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-caret-down</td>
+							<td>&amp;#xf0d7;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-caret-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-caret-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0d7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cc-visa</td>
+							<td>&amp;#xf1f0;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-cc-visa fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-cc-visa"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1f0; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-certificate</td>
+							<td>&amp;#xf0a3;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-certificate fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-certificate"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0a3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-chain</td>
+							<td>&amp;#xf0c1;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-chain fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-chain"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-check</td>
+							<td>&amp;#xf00c;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-check fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-check"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf00c; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cloud-download</td>
+							<td>&amp;#xf0ed;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-cloud-download fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-cloud-download"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0ed; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cog</td>
+							<td>&amp;#xf013;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-cog fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-cog"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf013; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-comments</td>
+							<td>&amp;#xf086;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-comments fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-comments"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf086; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-copy</td>
+							<td>&amp;#xf0c5;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-copy fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-copy"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file</td>
+							<td>&amp;#xf15b;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-file fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-file"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf15b; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-excel-o</td>
+							<td>&amp;#xf1c3;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-file-excel-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-file-excel-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1c3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-image-o</td>
+							<td>&amp;#xf1c5;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-file-image-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-file-image-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-pdf-o</td>
+							<td>&amp;#xf1c1;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-file-pdf-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-file-pdf-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-floppy-o</td>
+							<td>&amp;#xf0c7;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-floppy-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-floppy-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0c7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-folder-o</td>
+							<td>&amp;#xf114;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-folder-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-folder-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf114; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-list</td>
+							<td>&amp;#xf03a;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-list fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-list"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf03a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-home</td>
+							<td>&amp;#xf015;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-home fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-home"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf015; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-info-circle</td>
+							<td>&amp;#xf05a;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-info-circle fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-info-circle"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf05a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-location-arrow</td>
+							<td>&amp;#xf124;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-location-arrow fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-location-arrow"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf124; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-plus</td>
+							<td>&amp;#xf067;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-plus fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-plus"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf067; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-print</td>
+							<td>&amp;#xf02f;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-print fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-print"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf02f; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-refresh</td>
+							<td>&amp;#xf021;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-refresh fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-refresh"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf021; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-remove</td>
+							<td>&amp;#xf00d;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-remove fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-remove"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf00d; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-reply</td>
+							<td>&amp;#xf112;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-reply fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-reply"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf112; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-sort</td>
+							<td>&amp;#xf0dc;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-sort fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-sort"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf0dc; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-trash</td>
+							<td>&amp;#xf1f8;</td>
+							<td><a href="#" class="atag brown default"><i class="fa fa-trash fa-lg"></i>A 태그</a></td>
+							<td><button class="btn brown default"><i class="fa fa-trash"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input brown default" value="&#xf1f8; input 태그"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="red_cover">
+					<colgroup>
+						<col width="15%">
+						<col width="10%">
+						<col width="25%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Icon</th>
+							<th>Code</th>
+							<th>A 태그</th>
+							<th>Button 태그</th>
+							<th>Input 태그</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>fa-angle-down</td>
+							<td>&amp;#xf107;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-angle-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-angle-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf107; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-at</td>
+							<td>&amp;#xf1fa;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-at fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-at"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1fa; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-area-chart</td>
+							<td>&amp;#xf1fe;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-area-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-area-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1fe; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-bar-chart</td>
+							<td>&amp;#xf080;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-bar-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-bar-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf080; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-ban</td>
+							<td>&amp;#xf05e;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-ban fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-ban"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf05e; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-barcode</td>
+							<td>&amp;#xf02a;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-barcode fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-barcode"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf02a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-calendar</td>
+							<td>&amp;#xf073;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-calendar fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-calendar"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf073; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-camera</td>
+							<td>&amp;#xf030;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-camera fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-camera"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf030; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-caret-down</td>
+							<td>&amp;#xf0d7;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-caret-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-caret-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0d7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cc-visa</td>
+							<td>&amp;#xf1f0;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-cc-visa fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-cc-visa"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1f0; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-certificate</td>
+							<td>&amp;#xf0a3;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-certificate fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-certificate"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0a3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-chain</td>
+							<td>&amp;#xf0c1;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-chain fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-chain"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-check</td>
+							<td>&amp;#xf00c;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-check fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-check"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf00c; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cloud-download</td>
+							<td>&amp;#xf0ed;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-cloud-download fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-cloud-download"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0ed; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cog</td>
+							<td>&amp;#xf013;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-cog fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-cog"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf013; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-comments</td>
+							<td>&amp;#xf086;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-comments fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-comments"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf086; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-copy</td>
+							<td>&amp;#xf0c5;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-copy fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-copy"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file</td>
+							<td>&amp;#xf15b;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-file fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-file"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf15b; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-excel-o</td>
+							<td>&amp;#xf1c3;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-file-excel-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-file-excel-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1c3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-image-o</td>
+							<td>&amp;#xf1c5;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-file-image-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-file-image-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-pdf-o</td>
+							<td>&amp;#xf1c1;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-file-pdf-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-file-pdf-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-floppy-o</td>
+							<td>&amp;#xf0c7;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-floppy-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-floppy-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0c7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-folder-o</td>
+							<td>&amp;#xf114;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-folder-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-folder-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf114; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-list</td>
+							<td>&amp;#xf03a;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-list fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-list"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf03a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-home</td>
+							<td>&amp;#xf015;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-home fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-home"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf015; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-info-circle</td>
+							<td>&amp;#xf05a;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-info-circle fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-info-circle"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf05a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-location-arrow</td>
+							<td>&amp;#xf124;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-location-arrow fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-location-arrow"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf124; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-plus</td>
+							<td>&amp;#xf067;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-plus fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-plus"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf067; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-print</td>
+							<td>&amp;#xf02f;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-print fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-print"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf02f; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-refresh</td>
+							<td>&amp;#xf021;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-refresh fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-refresh"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf021; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-remove</td>
+							<td>&amp;#xf00d;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-remove fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-remove"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf00d; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-reply</td>
+							<td>&amp;#xf112;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-reply fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-reply"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf112; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-sort</td>
+							<td>&amp;#xf0dc;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-sort fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-sort"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf0dc; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-trash</td>
+							<td>&amp;#xf1f8;</td>
+							<td><a href="#" class="atag red default"><i class="fa fa-trash fa-lg"></i>A 태그</a></td>
+							<td><button class="btn red default"><i class="fa fa-trash"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input red default" value="&#xf1f8; input 태그"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="green_cover">
+					<colgroup>
+						<col width="15%">
+						<col width="10%">
+						<col width="25%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Icon</th>
+							<th>Code</th>
+							<th>A 태그</th>
+							<th>Button 태그</th>
+							<th>Input 태그</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>fa-angle-down</td>
+							<td>&amp;#xf107;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-angle-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-angle-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf107; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-at</td>
+							<td>&amp;#xf1fa;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-at fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-at"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1fa; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-area-chart</td>
+							<td>&amp;#xf1fe;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-area-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-area-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1fe; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-bar-chart</td>
+							<td>&amp;#xf080;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-bar-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-bar-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf080; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-ban</td>
+							<td>&amp;#xf05e;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-ban fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-ban"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf05e; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-barcode</td>
+							<td>&amp;#xf02a;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-barcode fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-barcode"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf02a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-calendar</td>
+							<td>&amp;#xf073;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-calendar fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-calendar"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf073; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-camera</td>
+							<td>&amp;#xf030;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-camera fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-camera"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf030; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-caret-down</td>
+							<td>&amp;#xf0d7;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-caret-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-caret-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0d7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cc-visa</td>
+							<td>&amp;#xf1f0;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-cc-visa fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-cc-visa"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1f0; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-certificate</td>
+							<td>&amp;#xf0a3;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-certificate fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-certificate"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0a3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-chain</td>
+							<td>&amp;#xf0c1;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-chain fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-chain"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-check</td>
+							<td>&amp;#xf00c;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-check fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-check"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf00c; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cloud-download</td>
+							<td>&amp;#xf0ed;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-cloud-download fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-cloud-download"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0ed; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cog</td>
+							<td>&amp;#xf013;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-cog fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-cog"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf013; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-comments</td>
+							<td>&amp;#xf086;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-comments fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-comments"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf086; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-copy</td>
+							<td>&amp;#xf0c5;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-copy fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-copy"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file</td>
+							<td>&amp;#xf15b;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-file fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-file"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf15b; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-excel-o</td>
+							<td>&amp;#xf1c3;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-file-excel-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-file-excel-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1c3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-image-o</td>
+							<td>&amp;#xf1c5;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-file-image-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-file-image-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-pdf-o</td>
+							<td>&amp;#xf1c1;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-file-pdf-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-file-pdf-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-floppy-o</td>
+							<td>&amp;#xf0c7;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-floppy-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-floppy-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0c7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-folder-o</td>
+							<td>&amp;#xf114;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-folder-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-folder-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf114; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-list</td>
+							<td>&amp;#xf03a;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-list fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-list"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf03a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-home</td>
+							<td>&amp;#xf015;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-home fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-home"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf015; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-info-circle</td>
+							<td>&amp;#xf05a;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-info-circle fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-info-circle"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf05a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-location-arrow</td>
+							<td>&amp;#xf124;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-location-arrow fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-location-arrow"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf124; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-plus</td>
+							<td>&amp;#xf067;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-plus fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-plus"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf067; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-print</td>
+							<td>&amp;#xf02f;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-print fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-print"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf02f; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-refresh</td>
+							<td>&amp;#xf021;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-refresh fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-refresh"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf021; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-remove</td>
+							<td>&amp;#xf00d;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-remove fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-remove"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf00d; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-reply</td>
+							<td>&amp;#xf112;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-reply fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-reply"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf112; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-sort</td>
+							<td>&amp;#xf0dc;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-sort fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-sort"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf0dc; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-trash</td>
+							<td>&amp;#xf1f8;</td>
+							<td><a href="#" class="atag green default"><i class="fa fa-trash fa-lg"></i>A 태그</a></td>
+							<td><button class="btn green default"><i class="fa fa-trash"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input green default" value="&#xf1f8; input 태그"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="blue_cover">
+					<colgroup>
+						<col width="15%">
+						<col width="10%">
+						<col width="25%">
+						<col width="25%">
+						<col width="25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Icon</th>
+							<th>Code</th>
+							<th>A 태그</th>
+							<th>Button 태그</th>
+							<th>Input 태그</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>fa-angle-down</td>
+							<td>&amp;#xf107;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-angle-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-angle-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf107; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-at</td>
+							<td>&amp;#xf1fa;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-at fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-at"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1fa; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-area-chart</td>
+							<td>&amp;#xf1fe;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-area-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-area-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1fe; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-bar-chart</td>
+							<td>&amp;#xf080;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-bar-chart fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-bar-chart"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf080; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-ban</td>
+							<td>&amp;#xf05e;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-ban fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-ban"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf05e; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-barcode</td>
+							<td>&amp;#xf02a;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-barcode fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-barcode"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf02a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-calendar</td>
+							<td>&amp;#xf073;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-calendar fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-calendar"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf073; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-camera</td>
+							<td>&amp;#xf030;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-camera fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-camera"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf030; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-caret-down</td>
+							<td>&amp;#xf0d7;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-caret-down fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-caret-down"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0d7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cc-visa</td>
+							<td>&amp;#xf1f0;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-cc-visa fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-cc-visa"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1f0; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-certificate</td>
+							<td>&amp;#xf0a3;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-certificate fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-certificate"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0a3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-chain</td>
+							<td>&amp;#xf0c1;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-chain fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-chain"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-check</td>
+							<td>&amp;#xf00c;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-check fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-check"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf00c; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cloud-download</td>
+							<td>&amp;#xf0ed;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-cloud-download fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-cloud-download"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0ed; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-cog</td>
+							<td>&amp;#xf013;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-cog fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-cog"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf013; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-comments</td>
+							<td>&amp;#xf086;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-comments fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-comments"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf086; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-copy</td>
+							<td>&amp;#xf0c5;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-copy fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-copy"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file</td>
+							<td>&amp;#xf15b;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-file fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-file"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf15b; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-excel-o</td>
+							<td>&amp;#xf1c3;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-file-excel-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-file-excel-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1c3; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-image-o</td>
+							<td>&amp;#xf1c5;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-file-image-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-file-image-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1c5; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-file-pdf-o</td>
+							<td>&amp;#xf1c1;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-file-pdf-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-file-pdf-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1c1; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-floppy-o</td>
+							<td>&amp;#xf0c7;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-floppy-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-floppy-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0c7; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-folder-o</td>
+							<td>&amp;#xf114;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-folder-o fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-folder-o"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf114; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-list</td>
+							<td>&amp;#xf03a;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-list fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-list"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf03a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-home</td>
+							<td>&amp;#xf015;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-home fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-home"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf015; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-info-circle</td>
+							<td>&amp;#xf05a;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-info-circle fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-info-circle"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf05a; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-location-arrow</td>
+							<td>&amp;#xf124;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-location-arrow fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-location-arrow"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf124; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-plus</td>
+							<td>&amp;#xf067;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-plus fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-plus"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf067; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-print</td>
+							<td>&amp;#xf02f;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-print fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-print"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf02f; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-refresh</td>
+							<td>&amp;#xf021;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-refresh fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-refresh"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf021; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-remove</td>
+							<td>&amp;#xf00d;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-remove fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-remove"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf00d; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-reply</td>
+							<td>&amp;#xf112;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-reply fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-reply"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf112; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-sort</td>
+							<td>&amp;#xf0dc;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-sort fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-sort"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf0dc; input 태그"></td>
+						</tr>
+						<tr>
+							<td>fa-trash</td>
+							<td>&amp;#xf1f8;</td>
+							<td><a href="#" class="atag blue default"><i class="fa fa-trash fa-lg"></i>A 태그</a></td>
+							<td><button class="btn blue default"><i class="fa fa-trash"></i>button 태그</button></td>
+							<td><input type="button" class="fa fa-lg input blue default" value="&#xf1f8; input 태그"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<footer id="footer">COPYRIGHT &copy; UI FRAMEWORK CO.LTD ALL RIGHTS RESERVED. </footer>
+	</div>
+</div>
+</body>
+</html>
